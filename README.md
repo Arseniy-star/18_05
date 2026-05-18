@@ -70,7 +70,7 @@ class Pet:
 class TamagotchiApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Тамагочи Encapsula")
+        self.root.title("Тамагочи")
         self.pet = Pet("Пушистик")
         # создание и размещение меток и кнопок
         self.update_ui()
